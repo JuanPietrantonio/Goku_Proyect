@@ -1,0 +1,196 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
+header  {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-style: groove;
+    border-color: black;
+    width: 100%;
+    height: 100px;
+    background-color: #FF8C00;
+    justify-content: center;
+    background-image: url("../Img/fondoNaranja.png");
+    background-size:cover;
+}
+
+.titulo {
+    text-align: center;
+    font-size: 50px;
+    font-weight: bold;
+    letter-spacing: 10px;
+}
+
+section {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 600px;
+    
+}
+
+.lista {
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    width: 30%;
+    height: 100%;
+    border-style:groove;
+    border-color: black;
+    border-width: 2px;
+    background-color: #FF8C00;
+    background-image: url("../Img/fondoNaranja.png");
+    background-size:cover;
+}
+
+.ataque-normal {
+    width: 100%;
+    height: 50%;
+    margin: 0px auto;
+    display: flex;
+    flex-wrap: wrap;
+    border-style: groove;
+    border-color: black;
+    border-width: 2px;
+    
+}
+
+.ataque {
+    padding: 15px;
+    margin: 8px;
+    border-color: black;
+    width: 200px;
+    
+}
+
+.ataque-super {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 50%;
+    align-items: center;
+    border-style: groove;
+    border-color: black;
+}
+
+.super {
+    margin: 0px auto;
+}
+
+.ataque-text {
+    font-size: 20px;
+    font-weight: bold;  
+    padding: 20px;
+    margin: 0px;
+    text-align: center;
+    border-style:outset;
+    border-color: black;
+    box-shadow: 2px 5px 5px;
+    user-select: none;   
+}
+
+.ataque-text:hover {
+    background-color: rgb(255, 132, 0);
+    transform: scale(1.02);
+    transition: all 0.2s;
+}
+
+.gif {
+    display: flex;
+    background-image: url("../Img/fondoNubes2.gif");
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-color:lightblue ;
+    width: 70%;
+    border-style:groove;
+    border-color: black;
+    border-width: 2px;
+    align-items: center;
+}
+
+.gif-box {
+    width: 300px;
+    height: 300px;
+    margin: 0px auto;
+    /* background-color: red; */
+    background-image: url("../Img/gokuInicial.gif");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:contain;
+}
+
+.gif-box.ataque1 {
+    width: 400px;
+    height: 400px;
+    margin: 0px auto;
+    /* background-color: red; */
+    background-image: url("../Img/gokuCorriendo.gif");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:contain;
+}
+
+.gif-box.ataque2 {
+    width: 400px;
+    height: 400px;
+    margin: 0px auto;
+    /* background-color: red; */
+    background-image: url("../Img/ataque-2.gif");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:contain;
+}
+
+.gif-box.ataque3 {
+    width: 600px;
+    height: 600px;
+    margin: 0px auto;
+    margin-bottom: 100px;
+    /* background-color: red; */
+    background-image: url("../Img/ataque-1.gif");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:contain;
+}
+
+.gif-box.ataque4 {
+    width: 450px;
+    height: 450px;
+    margin: 0px auto;
+    margin-bottom: 100px;
+    /* background-color: red; */
+    background-image: url("../Img/gokuSupersayayin.gif");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:cover;
+}
+
+.gif-box.ataque5 {
+    width: 700px;
+    height: 700px;
+    margin: 0px auto;
+    margin-bottom: 100px;
+    /* background-color: red; */
+    background-image: url("../Img/ataque-3.gif");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:contain;
+}
+
+.gif-box.ataque6 {
+    width: 1000px;
+    height: 700px;
+    margin: 0px auto;
+    margin-bottom: 100px;
+    /* background-color: red; */
+    background-image: url("../Img/ataque-4.gif");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:contain;
+}
