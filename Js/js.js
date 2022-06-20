@@ -1,6 +1,8 @@
 var estadoGoku = "inicial";
-var ataqueGoku = document.getElementById("gif-box")
-
+var ataqueGoku = document.getElementById("gif-box");
+var sonido = "off";
+var sonidoGoku = document.getElementById("musica-tecla");
+var musicaFondo = document.getElementById("musica-fondo");
 
 function gokuAtaca1() {
     if (estadoGoku == "inicial") {
@@ -98,3 +100,17 @@ function gokuAtaca6() {
         ataqueGoku.classList.remove("ataque6");
     }
 }
+
+function musicafondo(){
+    if (musicaFondo.paused) {
+        musicaFondo.play();
+    }
+    else {
+        musicaFondo.pause();
+    }
+}
+
+function Sonido() {
+    musicafondo();
+}
+

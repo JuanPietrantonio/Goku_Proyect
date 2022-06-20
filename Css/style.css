@@ -20,11 +20,33 @@ header  {
     background-size:cover;
 }
 
+/* .musica-boton {
+    font-size: 20px;
+    font-weight: bold;  
+    padding: 20px;
+    margin: 0px;
+    text-align: center;
+    border-style:outset;
+    border-color: black;
+    box-shadow: 2px 5px 5px;
+    user-select: none;
+    transform: translatey(360%);
+}
+ */
+
+.musica-tecla {
+    padding: 15px;
+    margin: 8px;
+    border-color: black;
+    width: 420px;
+}
+
 .titulo {
     text-align: center;
     font-size: 50px;
     font-weight: bold;
     letter-spacing: 10px;
+    color: rgb(7, 7, 141);
 }
 
 section {
@@ -70,17 +92,22 @@ section {
 }
 
 .ataque-super {
-    display: flex;
-    flex-direction: row;
     width: 100%;
     height: 50%;
-    align-items: center;
+    margin: 0px auto;
+    display: flex;
+    flex-wrap: wrap;
     border-style: groove;
     border-color: black;
+    border-width: 2px;
 }
 
 .super {
-    margin: 0px auto;
+    padding: 15px;
+    margin: 8px;
+    border-color: black;
+    width: 200px;
+    
 }
 
 .ataque-text {
@@ -91,6 +118,7 @@ section {
     text-align: center;
     border-style:outset;
     border-color: black;
+    color: rgb(7, 7, 141);
     box-shadow: 2px 5px 5px;
     user-select: none;   
 }
@@ -193,4 +221,19 @@ section {
     background-repeat: no-repeat;
     background-position: center;
     background-size:contain;
+}
+
+@media (max-width: 1470px) {
+    .ataque {
+        padding: 0px;
+        margin: auto;
+        border-color: black;
+        width: 300px;
+    }
+    .super {
+        padding: 0px;
+        margin: auto;
+        border-color: black;
+        width: 300px;
+    }
 }
