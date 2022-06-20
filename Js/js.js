@@ -20,7 +20,6 @@ function gokuAtaca1() {
     }
 }
 
-
 function gokuAtaca2() {
     if (estadoGoku == "inicial") {
         estadoGoku = "ataque";
